@@ -75,7 +75,7 @@ left: 0;
     justify-content: space-around;
     background-color: #697565;
     align-items: center;
-    height: 10vh;
+    height: 20vh;
 width: none;
 z-index: 1;
   }
@@ -88,7 +88,8 @@ nav .fa-x{
 }
 
 h1 {color: #eee6e6;
-  padding-right: 3px;
+  padding-right: 4px;
+  font-size: 3rem;
   
  }
 
@@ -162,19 +163,19 @@ a {
  }
 
  i{
-  font-size: 3rem;
+  font-size: 6rem;
   padding-left: 2rem;
   color: #0c0c0c;
  }
 
  map{
-  font-size: 3rem;
+  font-size: 4rem;
   padding-left: 2rem;
   color: #0c0c0c;
  }
 
  .nav-link{
-  padding-left: 3px; 
+  padding-left: 2px; 
  }
 
  .nav-Item .nav-link{
@@ -182,7 +183,7 @@ a {
  }
  
  nav #mobile-menu{
-  font-size: 2rem;
+  font-size: 5rem;
   cursor: pointer;
   display:block;
  }
@@ -191,6 +192,7 @@ a {
 background-color: #ECDFCC;
 transition:background-color 0.3s;
 color: #0e0d0d;
+font-size: 2rem;
  }
 
  .cta.purple:hover{
@@ -198,19 +200,20 @@ color: #0e0d0d;
  }
 
  /* القسم الاساسي */
+
+ 
  .hero {background-color: #262f22;
-  border-radius: 50px;
-  height: 50vh;
+  border-radius: 60px;
+  height: 60vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100shw;
-  margin: 0;
  }
 
  .hero h1{
-  font-size: 3rem;
+  font-size: 4rem;
   width:40%;
   text-align: center;
   color: #fefcfc;
@@ -226,13 +229,9 @@ color: #0e0d0d;
   margin-left: 1rem;
  }
 
- .cta.dark{
-  color: #f4f0f0;
- }
- .cta.dark:hover{
-  background-color:#070707;
- }
 
+
+ 
  /* المنتجات */
 
  .features {
@@ -245,29 +244,22 @@ color: #0e0d0d;
 
  .features h3 {
   color: #faf9f9;
-  font-size: 3rem;
+  font-size: 4rem;
   margin-bottom: 1rem;
 
  }
 
  .features h6 {
   color: #faf9f9;
-  font-size: 2rem;
-  margin-bottom: 3rem;
+  font-size: 3rem;
+  margin-bottom: 2rem;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 20vh;
 
  }
 vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
- .features {
-  background-color: #ededf4;
-  display: flex;
-  flex-direction: column;
-  border-radius:3rem;
-  overflow: hidden;
-  margin-bottom: 2rem;
-  box-shadow: 10px 10px 10px rgba(243, 240, 240, 0.5);
-  margin: 0;
- }
 .feature{
   display: flex;
   flex-direction: column;
@@ -310,8 +302,7 @@ element.style {
   border-radius: 50px;
   text-align:center ;
 
- }
-
+}
 
 
  .features source{
@@ -393,14 +384,15 @@ footer i:hover{
   
   
   nav .nav-Items {
+    font-size: 2rem;
     position: absolute;
     display: hidden;
     flex-direction: column;
     background-color: rgba(3, 3, 3,0.7);
     align-items: center;
     justify-content: space-evenly;
-    width: 400px;
-    height: 150px;
+    width: 800px;
+    height: 400px;
     top: 3.88rem;
     left: 6.2rem;
     }
